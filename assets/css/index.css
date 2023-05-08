@@ -1,1 +1,66 @@
 /* untuk style custom */
+
+/* styling untuk keseluruhan body pada page */
+body {
+    padding-top: 75px;
+    background-color: #FFFFFF;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+/* styling untuk box signup */
+.box-signup {
+    border-radius: 60px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    padding: 75px;
+}
+/* styling untuk judul pada box signup */
+.title-signup {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+/* styling untuk subjudul pada box signup */
+.subtitle-signup {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+}
+/* styling pada box input email */
+.input-signup {
+    margin-top: 35px;
+    align-items: center;
+}
+/* styling pada form input */
+.input-form {
+    border-radius: 17.5px;
+    background-color: #FFFFFF;
+    padding: 10px 6px 15px 20px;
+    width: 500px;
+    height: 65px;
+}
+/* styling pada input email */
+.input-form input {
+    padding-top: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #234CAD;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: none;
+    width: 420px;
+}
+/* styling button input email */
+.input-form button {
+    background-color: #234CAD;
+    width: 45px;
+    height: 45px;
+    padding: 5px 12px 5px 12px;
+    color: white;
+    border-radius: 12.5px;
+}
