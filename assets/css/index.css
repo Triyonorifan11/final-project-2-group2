@@ -64,4 +64,44 @@ body {
     color: white;
     border-radius: 12.5px;
 }
-
+/* styling footer */
+.footer-links {
+    padding: 0px 200px 0px 200px;
+    color: #234CAD;
+}
+/* styling judul pada footer */
+.title-footer {
+    margin-top: 75px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    margin-bottom: 20px;
+}
+/* styling pada konten footer */
+.content-footer ul, li, a {
+    list-style: none;
+    padding: 0px;
+    text-decoration: none;
+    color: #234CAD;
+}
+/* setting agar page responsif */
+@media only screen and (max-width: 900px) {
+    /* mengatur margin top pada judul footer */
+    .title-footer {
+        margin-top: 20px;
+        text-align: center;
+    }
+    /* mengatur aligning pada konten footer agar berada di tengah pada saat lebar browser dikecilkan seukuran browser mobile */
+    .content-footer, ul, li, a {
+        text-align: center;
+    }
+    /* mengatur padding pada footer */
+    .footer-links {
+        padding: 120px;
+        color: #234CAD;
+    }
+    /* mengatur lebar form input ketika tampilan mobile agar tidak over */
+    .input-form input {
+        width: 80%;
+    }
+}
