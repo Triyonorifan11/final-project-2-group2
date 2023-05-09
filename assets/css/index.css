@@ -2,9 +2,9 @@
 
 /* styling untuk keseluruhan body pada page */
 body {
-    padding-top: 75px;
+    overflow-x: hidden;
     background-color: #FFFFFF;
-    font-family: 'Nunito';
+    font-family: 'Nunito' !important;
     font-style: normal;
 }
 
@@ -48,6 +48,8 @@ body {
     width: 500px;
     height: 65px;
 }
+
+
 
 /* styling pada input email */
 .input-form input {
