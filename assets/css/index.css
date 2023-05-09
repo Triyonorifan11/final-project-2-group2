@@ -1,1 +1,65 @@
-/* untuk style custom */
+/* Feature 2 */
+
+#main-content {
+    width: 100%;
+    min-height: 200px;
+}
+
+#product-features1 .row {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#product-features1 .box {
+    width: 575px;
+    height: 575px;
+    padding: 20px;
+    margin: 100px 0 0 100px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+
+.box-2 {
+    height: 575px;
+    padding: 20px;
+    margin: 0 100px 100px 100px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+
+#product-features1 .card {
+    margin: 100px 50px 0 50px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#product-features1 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    align-self: flex-end;
+
+}
+
+#text {
+    text-align: left;
+    padding-left: 18px;
+    color: #234CAD;
+}
+
+.button-section2 {
+    border: 2px solid #234CAD;
+    background: #FFFFFF;
+    border-radius: 32.5px;
+    padding: 10px;
+}
+
+
+#product-features2 .container {
+    display: flex;
+    flex-wrap: wrap;
+    background: #F2F6FF;
+    border-radius: 60px;
+}
