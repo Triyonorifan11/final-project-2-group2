@@ -221,7 +221,6 @@ p {
 #about .row {
     display: flex;
     text-align: center;
-    flex-wrap: wrap;
 }
 
 #about .box {
@@ -238,7 +237,7 @@ p {
     height: 145px;
     width: 270px;
     top: 100px;
-    left : 25px;
+    left : 150px;
     border-radius: 25px;
     
 
@@ -249,4 +248,31 @@ p {
     align-self: flex-end;
    
 
+}
+
+#title {
+
+    height: 21px;
+    left: 0%;
+    right: 11.02%;
+    top: calc(50% - 21px/2 - 12px);
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#information {
+    height: 21px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 21px/2 + 12px);
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
 }
