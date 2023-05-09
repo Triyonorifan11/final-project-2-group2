@@ -1,0 +1,39 @@
+#main-content h1,
+h5,
+p {
+    color: #234CAD;
+    font-family: 'Nunito';
+    font-style: normal;
+
+}
+
+.container {
+    display: grid;
+    background-color: #F2F6FF;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+}
+
+#product-features2 .card {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#product-features2 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+}

@@ -132,6 +132,15 @@ a {
     min-height: 200px;
 }
 
+#main-content h1,
+h5,
+p {
+    color: #234CAD;
+    font-family: 'Nunito';
+    font-style: normal;
+
+}
+
 #product-features1 .row {
     display: flex;
     text-align: center;
@@ -148,7 +157,7 @@ a {
 }
 
 .box-2 {
-    height: 575px;
+    /* height: 575px; */
     border-radius: 60px;
     background-color: #F2F6FF;
     color: #234CAD;
@@ -174,7 +183,6 @@ a {
 #text {
     text-align: left;
     padding-left: 18px;
-    color: #234CAD;
 }
 
 .button-section2 {
@@ -193,4 +201,19 @@ a {
 .box {
     min-height: 150px;
     width: 100%;
+}
+
+#product-features2 .card {
+    margin: 0 10px 0 10px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#product-features2 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
