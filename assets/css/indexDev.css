@@ -1,0 +1,69 @@
+body{
+    font-family: 'Nunito';
+}
+
+:root {
+    --bg-light-primary-me : #F2F6FF;
+}
+.nav-link{
+    color: #234CAD;
+}
+.nav-link:hover{
+    color: #234CAD;
+    font-weight: bold;
+}
+.nav-link.active{
+    font-weight: bold;
+    color: #234CAD !important;
+}
+.btn-outline-primary-me{
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    font-size: 1rem;
+    transition: .3s;
+}
+.btn-outline-primary-me:hover{
+    color: #fff;
+    background-color: #234CAD;
+}
+
+.btn-primary-me{
+    background-color: var(--bg-light-primary-me);
+    border: 2px solid var(--bg-light-primary-me);
+    color: #234CAD;    
+}
+.btn-primary-me:hover{
+    border: 2px solid #234CAD;
+    background-color: var(--bg-light-primary-me);
+    color: #234CAD;    
+}
+
+.text-primary-me{
+    color: #234CAD;
+}
+.radius-60{
+    border-radius: 2rem !important;
+}
+.navbar-toggle-me{
+    height: 3.1rem;
+    outline: none;
+    border: 0;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--bg-light-primary-me);
+}
+
+.navbar-toggler-icon-me{
+    display: block;
+    border-radius: 20px;
+    width: 1.4em;
+    height: .2em;
+    background-color: #234CAD;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.bg-primary-me{
+    background-color: var(--bg-light-primary-me);
+}
