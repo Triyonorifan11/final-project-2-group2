@@ -5,49 +5,49 @@ body {
 
 :root {
     --bg-light-primary-me: #F2F6FF;
-    --text-primary-me: #234CAD;
+    --primary-me: #234CAD;
 }
 
 .nav-link {
-    color: #234CAD;
+    color: var(--primary-me);
 }
 
 .nav-link:hover {
-    color: #234CAD;
+    color: var(--primary-me);
     font-weight: bold;
 }
 
 .nav-link.active {
     font-weight: bold;
-    color: #234CAD !important;
+    color: var(--primary-me) !important;
 }
 
 .btn-outline-primary-me {
-    border: 2px solid #234CAD;
-    color: #234CAD;
+    border: 2px solid var(--primary-me);
+    color: var(--primary-me);
     font-size: 1rem;
     transition: .3s;
 }
 
 .btn-outline-primary-me:hover {
     color: #fff;
-    background-color: #234CAD;
+    background-color: var(--primary-me);
 }
 
 .btn-primary-me {
     background-color: var(--bg-light-primary-me);
     border: 2px solid var(--bg-light-primary-me);
-    color: #234CAD;
+    color: var(--primary-me);
 }
 
 .btn-primary-me:hover {
-    border: 2px solid #234CAD;
+    border: 2px solid var(--primary-me);
     background-color: var(--bg-light-primary-me);
-    color: #234CAD;
+    color: var(--primary-me);
 }
 
 .text-primary-me {
-    color: var(--text-primary-me);
+    color: var(--primary-me);
 }
 
 .radius-60 {
@@ -68,7 +68,7 @@ body {
     border-radius: 20px;
     width: 1.4em;
     height: .2em;
-    background-color: #234CAD;
+    background-color: var(--primary-me);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
