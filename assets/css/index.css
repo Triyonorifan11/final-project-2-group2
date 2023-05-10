@@ -236,5 +236,67 @@ p {
     padding: 10px;
     text-align: center;
 }
-
 /* End Section B Features 1 dan Features 2 */
+/* GHEINA */
+#about .row {
+    display: flex;
+    text-align: center;
+}
+
+#about .box {
+    width: 580px;
+    height: 575px;
+    padding: 10px;
+    margin: 100px 0 0 100px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+    
+}
+
+#about .card {
+    height: 145px;
+    width: 270px;
+    top: 100px;
+    left : 150px;
+    border-radius: 25px;
+    
+
+}
+
+#about.card-body {
+    background-color: #FFFFFF;
+    align-self: flex-end;
+   
+
+}
+
+#title {
+
+    height: 21px;
+    left: 0%;
+    right: 11.02%;
+    top: calc(50% - 21px/2 - 12px);
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#information {
+    height: 21px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 21px/2 + 12px);
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+
+
+
