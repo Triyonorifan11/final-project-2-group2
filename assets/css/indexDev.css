@@ -130,9 +130,15 @@ body {
 }
 
 /* mobile 2 */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+}
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    
+    .height-80 {
+        height: fit-content;
+    }
 }
