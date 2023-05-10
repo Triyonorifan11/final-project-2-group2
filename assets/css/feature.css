@@ -116,10 +116,18 @@ body {
     height: 80vh;
 }
 
+.p-me{
+    padding-right: 10rem !important;
+}
+
 /* mobile */
 @media (max-width: 575.98px) {
     .height-80 {
         height: fit-content;
+    }
+
+    .p-me{
+        padding-right: 0 !important;
     }
 
     .save-message {
@@ -141,11 +149,17 @@ body {
     .height-80 {
         height: fit-content;
     }
+    .p-me{
+        padding-right: 0 !important;
+    }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     .height-80 {
         height: fit-content;
+    }
+    .p-me{
+        padding-right: 0 !important;
     }
 }
