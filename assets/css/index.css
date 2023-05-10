@@ -2,9 +2,9 @@
 
 /* styling untuk keseluruhan body pada page */
 body {
-    padding-top: 75px;
+    overflow-x: hidden;
     background-color: #FFFFFF;
-    font-family: 'Nunito';
+    font-family: 'Nunito' !important;
     font-style: normal;
 }
 
@@ -48,6 +48,8 @@ body {
     width: 500px;
     height: 65px;
 }
+
+
 
 /* styling pada input email */
 .input-form input {
@@ -126,7 +128,8 @@ a {
     }
 }
 
-/* Section2 */
+
+/* ini Section B Features 1 dan Features 2 */
 #main-content {
     width: 100%;
     min-height: 200px;
@@ -156,15 +159,6 @@ p {
     border-radius: 60px;
 }
 
-.box-2 {
-    /* height: 575px; */
-    border-radius: 60px;
-    background-color: #F2F6FF;
-    color: #234CAD;
-    padding: 75px;
-    margin-bottom: 50px;
-}
-
 #product-features1 .card {
     margin: 100px 50px 0 50px;
     padding: 15px;
@@ -180,6 +174,30 @@ p {
 
 }
 
+#product-features1,
+#product-features2 .container {
+    display: grid;
+    margin: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+
+}
+
+#product-features2 .card {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#product-features2 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+}
+
 #text {
     text-align: left;
     padding-left: 18px;
@@ -190,24 +208,25 @@ p {
     background: #FFFFFF;
     border-radius: 32.5px;
     padding: 10px;
+    color: #234CAD;
 }
-
-/* .container {
-    display: flex;
-    flex-wrap: wrap;
-    background: #F2F6FF;
-} */
 
 .box {
     min-height: 150px;
     width: 100%;
 }
 
+.box2 {
+    height: 575px;
+    width: 100%;
+    background: #F2F6FF;
+    border-radius: 60px;
+}
+
 #product-features2 .card {
-    margin: 0 10px 0 10px;
+    margin: 30px 10px 0 10px;
     padding: 15px;
     background-color: #FFFFFF;
-    border-radius: 25px;
 }
 
 #product-features2 .card-body {
@@ -217,6 +236,7 @@ p {
     padding: 10px;
     text-align: center;
 }
+/* End Section B Features 1 dan Features 2 */
 /* GHEINA */
 #about .row {
     display: flex;
@@ -276,3 +296,7 @@ p {
     font-size: 12px;
     line-height: 21px;
 }
+
+
+
+
