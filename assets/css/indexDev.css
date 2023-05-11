@@ -122,14 +122,6 @@ body {
     color: #234CAD;
     padding: 75px;
 }
-/* styling untuk judul pada box signup */
-.title-signup {
-    text-align: center;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 25px;
-}
 /* styling subjudul pada box signup */
 .subtitle-signup {
     text-align: center;
@@ -163,6 +155,10 @@ body {
     border: none;
     width: 420px;
 }
+
+.input-form input:focus{
+    outline: none;
+}
 /* styling button input email */
 .input-form button {
     background-color: var(--primary-me);
@@ -182,12 +178,14 @@ body {
     margin-bottom: 20px;
 }
 /* styling pada konten footer */
-.content-footer ul, li, a {
+.content-footer ul li {
     list-style: none;
+    text-align: left;
     padding: 0px;
     text-decoration: none !important;
     color: var(--primary-me) !important;
 }
+
 
 .color-blue {
     color: var(--primary-me);
