@@ -41,7 +41,7 @@
         text-align: center;
     }
     /* mengatur aligning pada konten footer agar berada di tengah pada saat lebar browser dikecilkan */
-    .content-footer, ul, li, a {
+    .content-footer ul li a {
         text-align: center;
     }
     /* mengatur padding pada footer */

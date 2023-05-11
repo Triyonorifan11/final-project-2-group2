@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/indexDev.css">
     <link rel="stylesheet" href="assets/css/responsivePage.css">
     <!-- <link rel="stylesheet" href="assets/css/index.css"> -->
-    <link rel="stylesheet" href="assets/css/feature.css">
+    <!-- <link rel="stylesheet" href="assets/css/feature.css"> -->
 </head>
 
 <body>
@@ -229,7 +229,8 @@
         <section id="product-features1" class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card d-flex justify-content-center border border-0" style="height: 575px;">
+                    <div class="card d-flex justify-content-center border border-0 bg-primary-me radius-60 "
+                        style="height: 575px;">
                         <div class="row d-flex justify-content-center">
                             <div class="col-8 pb-4" style="height: fit-content; width: fit-content;">
                                 <div class="card bg-white border border-0" style="border-radius: 1rem;">
@@ -238,10 +239,11 @@
                                             <img src="assets/images/aj.png" alt="" class="px-1">
                                             <div class="text ps-2">
                                                 <span class="d-flex justify-content-between">
-                                                    <span class="fw-bold ">Andrew Johnson</span>
-                                                    <small>1:03 PM</small>
+                                                    <span class="fw-bold text-primary-me">Andrew Johnson</span>
+                                                    <small class="text-primary-me">1:03 PM</small>
                                                 </span>
-                                                <small>I have seen that you are availabl…</small>
+                                                <small class="text-primary-me">I have seen that you are
+                                                    availabl…</small>
                                             </div>
                                         </div>
                                     </div>
@@ -254,9 +256,9 @@
                                     <div class="card-body">
                                         <div class="d-flex align-items-center">
                                             <img src="assets/images/dl.png" alt="" class="px-1">
-                                            <div class="text ps-2">
+                                            <div class="text ps-2 text-primary-me">
                                                 <span class="d-flex justify-content-between">
-                                                    <span class="fw-bold">Daniel Luke</span>
+                                                    <span class="fw-bold ">Daniel Luke</span>
                                                     <small>1:03 PM</small>
                                                 </span>
                                                 <small>Would you like to have a meetin…</small>
@@ -272,7 +274,7 @@
                                     <div class="card-body">
                                         <div class="d-flex align-items-center">
                                             <img src="assets/images/mc.png" alt="" class="px-1">
-                                            <div class="text ps-2">
+                                            <div class="text ps-2 text-primary-me">
                                                 <span class="d-flex justify-content-between">
                                                     <span class="fw-bold ">Mark Clarke</span>
                                                     <small>2:08 AM</small>
@@ -294,18 +296,19 @@
                         app</button>
                 </div>
             </div>
+        </section>
 
 
-            <!-- Fietures2 -->
-            <section id="product-features2">
-                <div class="col align-self-center mt-5 pb-5" style="text-align: center; ">
-                    <h1 class=" text-primary-me fw-bold">Transform your communications</h1><br>
-                    <small class="text-primary-me mt-3">Our mobile app is the only thing you need to change <br>
-                        the way you communicate with your team
-                    </small>
-                </div>
-            </section>
-            <!-- akhir section B -->
+        <!-- Fietures2 -->
+        <section id="product-features2">
+            <div class="col align-self-center mt-5 pb-5" style="text-align: center; ">
+                <h1 class=" text-primary-me fw-bold">Transform your communications</h1><br>
+                <small class="text-primary-me mt-3">Our mobile app is the only thing you need to change <br>
+                    the way you communicate with your team
+                </small>
+            </div>
+        </section>
+        <!-- akhir section B -->
     </main>
 
     <!-- section D -- Footer and Sign up -->
@@ -314,20 +317,20 @@
             <!-- bagian box form signup -->
             <div class="box-signup">
                 <!-- judul -->
-                <div class="title-signup">
-                    <span class="fw-bold">
+                <div class="title-signup text-center">
+                    <h1 class="fw-bold fs-1">
                         Sign up to our newsletter
-                    </span>
+                    </h1>
                 </div>
                 <!-- sub judul -->
                 <div class="subtitle-signup mb-2">
                     Receive latest news, updates, discounts and<br />
                     many other things every week.
                 </div>
-                
+
                 <!-- form input email -->
                 <div class="input-signup row justify-content-center">
-                    <div class="input-form col-auto">
+                    <div class="d-flex input-form">
                         <input type="email" name="email" placeholder="Enter your email address">
                         <button type="button" class="btn btn-primary">></button>
                     </div>
@@ -356,10 +359,10 @@
                             </div>
                             <!-- konten -->
                             <div class="content-footer">
-                                <ul>
-                                    <li><a href="#">Benefits</a></li>
-                                    <li><a href="#">Feedback</a></li>
-                                    <li><a href="#">Features</a></li>
+                                <ul class="p-0">
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me" href="#">Benefits</a></li>
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me" href="#">Feedback</a></li>
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me" href="#">Features</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -370,9 +373,9 @@
                             </div>
                             <!-- konten -->
                             <div class="content-footer">
-                                <ul>
-                                    <li><a href="#">Company</a></li>
-                                    <li><a href="#">Team</a></li>
+                                <ul class="p-0">
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me" href="#">Company</a></li>
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me" href="#">Team</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -383,9 +386,9 @@
                             </div>
                             <!-- konten -->
                             <div class="content-footer">
-                                <ul>
-                                    <li><a href="#">Get help</a></li>
-                                    <li><a href="#">Terms of service</a></li>
+                                <ul class="p-0">
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me" href="#">Get help</a></li>
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me" href="#">Terms of service</a></li>
                                 </ul>
                             </div>
                         </div>
