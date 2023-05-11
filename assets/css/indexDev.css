@@ -114,6 +114,12 @@ body {
 
 
 /* ======================================================================================== */
+/* SECTION C -- ABOUT AND PRICING */
+
+.border-3 {
+    border: 2px solid var(--primary-me);
+    color: var(--primary-me);
+}
 /* SECTION D -- FOOTER AND SIGN UP */
 /* styling untuk box signup */
 .box-signup {
