@@ -2,11 +2,12 @@
 
 /* styling untuk keseluruhan body pada page */
 body {
-    padding-top: 75px;
+    overflow-x: hidden;
     background-color: #FFFFFF;
-    font-family: 'Nunito';
+    font-family: 'Nunito' !important;
     font-style: normal;
 }
+
 /* styling untuk box signup */
 .box-signup {
     border-radius: 60px;
@@ -14,6 +15,7 @@ body {
     color: #234CAD;
     padding: 75px;
 }
+
 /* styling untuk judul pada box signup */
 .title-signup {
     text-align: center;
@@ -22,6 +24,7 @@ body {
     line-height: 56px;
     margin-bottom: 25px;
 }
+
 /* styling untuk subjudul pada box signup */
 .subtitle-signup {
     text-align: center;
@@ -30,11 +33,13 @@ body {
     line-height: 26px;
     color: #234CAD;
 }
+
 /* styling pada box input email */
 .input-signup {
     margin-top: 35px;
     align-items: center;
 }
+
 /* styling pada form input */
 .input-form {
     border-radius: 17.5px;
@@ -43,6 +48,9 @@ body {
     width: 500px;
     height: 65px;
 }
+
+
+
 /* styling pada input email */
 .input-form input {
     padding-top: 6px;
@@ -55,6 +63,7 @@ body {
     border: none;
     width: 420px;
 }
+
 /* styling button input email */
 .input-form button {
     background-color: #234CAD;
@@ -64,11 +73,13 @@ body {
     color: white;
     border-radius: 12.5px;
 }
+
 /* styling footer */
 .footer-links {
     padding: 0px 200px 0px 200px;
     color: #234CAD;
 }
+
 /* styling judul pada footer */
 .title-footer {
     margin-top: 75px;
@@ -77,31 +88,215 @@ body {
     line-height: 49px;
     margin-bottom: 20px;
 }
+
 /* styling pada konten footer */
-.content-footer ul, li, a {
+.content-footer ul,
+li,
+a {
     list-style: none;
     padding: 0px;
     text-decoration: none;
     color: #234CAD;
 }
+
 /* setting agar page responsif */
 @media only screen and (max-width: 900px) {
+
     /* mengatur margin top pada judul footer */
     .title-footer {
         margin-top: 20px;
         text-align: center;
     }
+
     /* mengatur aligning pada konten footer agar berada di tengah pada saat lebar browser dikecilkan seukuran browser mobile */
-    .content-footer, ul, li, a {
+    .content-footer,
+    ul,
+    li,
+    a {
         text-align: center;
     }
+
     /* mengatur padding pada footer */
     .footer-links {
         padding: 120px;
         color: #234CAD;
     }
+
     /* mengatur lebar form input ketika tampilan mobile agar tidak over */
     .input-form input {
         width: 80%;
     }
 }
+
+
+/* ini Section B Features 1 dan Features 2 */
+#main-content {
+    width: 100%;
+    min-height: 200px;
+}
+
+#main-content h1,
+h5,
+p {
+    color: #234CAD;
+    font-family: 'Nunito';
+    font-style: normal;
+
+}
+
+#product-features1 .row {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#product-features1 .box {
+    width: 575px;
+    height: 575px;
+    padding: 20px;
+    margin: 100px 0 0 100px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+
+#product-features1 .card {
+    margin: 100px 50px 0 50px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#product-features1 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    align-self: flex-end;
+
+}
+
+#product-features1,
+#product-features2 .container {
+    display: grid;
+    margin: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+
+}
+
+#product-features2 .card {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#product-features2 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#text {
+    text-align: left;
+    padding-left: 18px;
+}
+
+.button-section2 {
+    border: 2px solid #234CAD;
+    background: #FFFFFF;
+    border-radius: 32.5px;
+    padding: 10px;
+    color: #234CAD;
+}
+
+.box {
+    min-height: 150px;
+    width: 100%;
+}
+
+.box2 {
+    height: 575px;
+    width: 100%;
+    background: #F2F6FF;
+    border-radius: 60px;
+}
+
+#product-features2 .card {
+    margin: 30px 10px 0 10px;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+#product-features2 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+/* End Section B Features 1 dan Features 2 */
+/* GHEINA */
+#about .row {
+    display: flex;
+    text-align: center;
+}
+
+#about .box {
+    width: 580px;
+    height: 575px;
+    padding: 10px;
+    margin: 100px 0 0 100px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+    
+}
+
+#about .card {
+    height: 145px;
+    width: 270px;
+    top: 100px;
+    left : 150px;
+    border-radius: 25px;
+    
+
+}
+
+#about.card-body {
+    background-color: #FFFFFF;
+    align-self: flex-end;
+   
+
+}
+
+#title {
+
+    height: 21px;
+    left: 0%;
+    right: 11.02%;
+    top: calc(50% - 21px/2 - 12px);
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#information {
+    height: 21px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 21px/2 + 12px);
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+
+
+

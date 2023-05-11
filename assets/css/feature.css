@@ -1,0 +1,165 @@
+body {
+    font-family: 'Nunito';
+    overflow-x: hidden !important;
+}
+
+.card {
+    border-radius: 60px;
+    background: #F2F6FF;
+    color: #234CAD;
+}
+
+
+:root {
+    --bg-light-primary-me: #F2F6FF;
+    --text-primary-me: #234CAD;
+}
+
+.nav-link {
+    color: #234CAD;
+}
+
+.nav-link:hover {
+    color: #234CAD;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #234CAD !important;
+}
+
+.btn-outline-primary-me {
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.btn-outline-primary-me:hover {
+    color: #fff;
+    background-color: #234CAD;
+}
+
+.btn-primary-me {
+    background-color: var(--bg-light-primary-me);
+    border: 2px solid var(--bg-light-primary-me);
+    color: #234CAD;
+}
+
+.btn-primary-me:hover {
+    border: 2px solid #234CAD;
+    background-color: var(--bg-light-primary-me);
+    color: #234CAD;
+}
+
+.text-primary-me {
+    color: var(--text-primary-me);
+}
+
+.radius-60 {
+    border-radius: 2rem !important;
+}
+
+.navbar-toggle-me {
+    height: 3.1rem;
+    outline: none;
+    border: 0;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--bg-light-primary-me);
+}
+
+.navbar-toggler-icon-me {
+    display: block;
+    border-radius: 20px;
+    width: 1.4em;
+    height: .2em;
+    background-color: #234CAD;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.bg-primary-me {
+    background-color: var(--bg-light-primary-me);
+}
+
+.circle {
+    position: relative;
+    border: 3px solid #fff;
+    display: flex;
+    padding: 1.2rem !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: .74rem !important;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-light-primary-me);
+    text-align: center;
+}
+
+.save-message {
+    width: max-content;
+    position: relative;
+    top: -60px;
+    left: 10px;
+}
+
+.message {
+    position: relative;
+    top: -30px;
+}
+
+.height-80 {
+    height: 80vh;
+}
+
+.p-me{
+    padding-right: 10rem !important;
+}
+
+/* mobile */
+@media (max-width: 575.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+
+    .p-me{
+        padding-right: 0 !important;
+    }
+
+    .save-message {
+        width: fit-content;
+        position: relative;
+        top: 0px;
+        left: 0;
+        margin-top: 1.7rem;
+    }
+
+    .message {
+        position: relative;
+        top: 20px;
+    }
+}
+
+/* mobile 2 */
+@media (max-width: 767.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+    .p-me{
+        padding-right: 0 !important;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+    .p-me{
+        padding-right: 0 !important;
+    }
+}
