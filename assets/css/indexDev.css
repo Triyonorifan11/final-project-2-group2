@@ -78,6 +78,11 @@ body {
     background-color: var(--bg-light-primary-me);
 }
 
+
+.border-3 {
+    border: 2px solid #234CAD;
+    color: #234CAD;
+}
 .circle {
     position: relative;
     border: 3px solid #fff;
