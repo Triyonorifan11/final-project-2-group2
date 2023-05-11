@@ -8,6 +8,7 @@ body {
     --primary-me: #234CAD;
 }
 
+/* SECTION A -- NAVBAR AND BANNER */
 .nav-link {
     color: var(--primary-me);
 }
@@ -109,36 +110,88 @@ body {
     height: 80vh;
 }
 
-/* mobile */
-@media (max-width: 575.98px) {
-    .height-80 {
-        height: fit-content;
-    }
+/* AKHIR SECTION A -- NAVBAR AND BANNER */
 
-    .save-message {
-        width: fit-content;
-        position: relative;
-        top: 0px;
-        left: 0;
-        margin-top: 1.7rem;
-    }
 
-    .message {
-        position: relative;
-        top: 20px;
-    }
+/* ======================================================================================== */
+/* SECTION D -- FOOTER AND SIGN UP */
+/* styling untuk box signup */
+.box-signup {
+    border-radius: 60px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    padding: 75px;
+}
+/* styling subjudul pada box signup */
+.subtitle-signup {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary-me);
+}
+/* styling pada box input email */
+.input-signup {
+    margin-top: 35px;
+    align-items: center;
+}
+/* styling pada form input */
+.input-form {
+    border-radius: 17.5px;
+    background-color: #FFFFFF;
+    padding: 10px 6px 15px 20px;
+    width: 500px;
+    height: 65px;
+}
+/* styling pada input email */
+.input-form input {
+    padding-top: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--primary-me);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: none;
+    width: 420px;
 }
 
-/* mobile 2 */
-@media (max-width: 767.98px) {
-    .height-80 {
-        height: fit-content;
-    }
+.input-form input:focus{
+    outline: none;
+}
+/* styling button input email */
+.input-form button {
+    background-color: var(--primary-me);
+    width: 45px;
+    height: 45px;
+    padding: 5px 12px 5px 12px;
+    color: white;
+    border-radius: 12.5px;
 }
 
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    .height-80 {
-        height: fit-content;
-    }
+/* styling judul pada footer */
+.title-footer {
+    margin-top: 75px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    margin-bottom: 20px;
 }
+/* styling pada konten footer */
+.content-footer ul li {
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    text-decoration: none !important;
+    color: var(--primary-me) !important;
+}
+
+
+.color-blue {
+    color: var(--primary-me);
+}
+
+
+/* AKHIR SECTION D -- FOOTER AND SIGN UP */
+
+
