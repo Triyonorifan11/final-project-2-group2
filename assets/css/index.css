@@ -2,12 +2,106 @@
 
 /* styling untuk keseluruhan body pada page */
 body {
-    padding-top: 75px;
+    overflow-x: hidden;
     background-color: #FFFFFF;
-    font-family: 'Nunito';
+    font-family: 'Nunito' !important;
     font-style: normal;
 }
 
+<<<<<<< HEAD
+=======
+/* styling untuk box signup */
+.box-signup {
+    border-radius: 60px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    padding: 75px;
+}
+
+/* styling untuk judul pada box signup */
+.title-signup {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+
+/* styling untuk subjudul pada box signup */
+.subtitle-signup {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+}
+
+/* styling pada box input email */
+.input-signup {
+    margin-top: 35px;
+    align-items: center;
+}
+
+/* styling pada form input */
+.input-form {
+    border-radius: 17.5px;
+    background-color: #FFFFFF;
+    padding: 10px 6px 15px 20px;
+    width: 500px;
+    height: 65px;
+}
+
+
+
+/* styling pada input email */
+.input-form input {
+    padding-top: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #234CAD;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: none;
+    width: 420px;
+}
+
+/* styling button input email */
+.input-form button {
+    background-color: #234CAD;
+    width: 45px;
+    height: 45px;
+    padding: 5px 12px 5px 12px;
+    color: white;
+    border-radius: 12.5px;
+}
+
+/* styling footer */
+.footer-links {
+    padding: 0px 200px 0px 200px;
+    color: #234CAD;
+}
+
+/* styling judul pada footer */
+.title-footer {
+    margin-top: 75px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    margin-bottom: 20px;
+}
+
+/* styling pada konten footer */
+.content-footer ul,
+li,
+a {
+    list-style: none;
+    padding: 0px;
+    text-decoration: none;
+    color: #234CAD;
+}
+
+>>>>>>> 997dc4e40ce8a857eb5184d287203465632af797
 /* setting agar page responsif */
 @media only screen and (max-width: 900px) {
 
@@ -37,9 +131,114 @@ body {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+/* ini Section B Features 1 dan Features 2 */
+#main-content {
+    width: 100%;
+    min-height: 200px;
+}
+>>>>>>> 997dc4e40ce8a857eb5184d287203465632af797
 
 
 
+<<<<<<< HEAD
+=======
+#product-features1 .row {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#product-features1 .box {
+    width: 575px;
+    height: 575px;
+    padding: 20px;
+    margin: 100px 0 0 100px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+
+#product-features1 .card {
+    margin: 100px 50px 0 50px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#product-features1 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    align-self: flex-end;
+
+}
+
+#product-features1,
+#product-features2 .container {
+    display: grid;
+    margin: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+
+}
+
+#product-features2 .card {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#product-features2 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#text {
+    text-align: left;
+    padding-left: 18px;
+}
+
+.button-section2 {
+    border: 2px solid #234CAD;
+    background: #FFFFFF;
+    border-radius: 32.5px;
+    padding: 10px;
+    color: #234CAD;
+}
+
+.box {
+    min-height: 150px;
+    width: 100%;
+}
+
+.box2 {
+    height: 575px;
+    width: 100%;
+    background: #F2F6FF;
+    border-radius: 60px;
+}
+
+#product-features2 .card {
+    margin: 30px 10px 0 10px;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+#product-features2 .card-body {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+/* End Section B Features 1 dan Features 2 */
+>>>>>>> 997dc4e40ce8a857eb5184d287203465632af797
 /* GHEINA */
 
 h1 {
@@ -104,6 +303,7 @@ p {
     font-weight: 400;
     font-size: 12px;
     line-height: 21px;
+<<<<<<< HEAD
     color : #234CAD;
  
 }
@@ -129,3 +329,10 @@ p {
     border-radius: 25px;
 
 }
+=======
+}
+
+
+
+
+>>>>>>> 997dc4e40ce8a857eb5184d287203465632af797
