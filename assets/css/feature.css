@@ -7,6 +7,7 @@ body {
     border-radius: 60px;
     background: #F2F6FF;
     color: #234CAD;
+
 }
 
 
@@ -116,8 +117,13 @@ body {
     height: 80vh;
 }
 
-.p-me{
+.p-me {
     padding-right: 10rem !important;
+}
+
+.d-me {
+    display: flex;
+    justify-content: end;
 }
 
 /* mobile */
@@ -126,8 +132,14 @@ body {
         height: fit-content;
     }
 
-    .p-me{
+    .p-me {
         padding-right: 0 !important;
+    }
+
+    .d-me {
+        position: relative;
+        justify-content: start;
+        left: 1rem;
     }
 
     .save-message {
@@ -149,7 +161,8 @@ body {
     .height-80 {
         height: fit-content;
     }
-    .p-me{
+
+    .p-me {
         padding-right: 0 !important;
     }
 }
@@ -159,7 +172,8 @@ body {
     .height-80 {
         height: fit-content;
     }
-    .p-me{
+
+    .p-me {
         padding-right: 0 !important;
     }
 }
