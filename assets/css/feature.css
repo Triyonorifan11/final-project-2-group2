@@ -126,6 +126,13 @@ body {
     justify-content: end;
 }
 
+.card-features2 {
+    height: 100vh;
+    border-radius: 60px;
+    background: #F2F6FF;
+    color: #234CAD;
+}
+
 /* mobile */
 @media (max-width: 575.98px) {
     .height-80 {
@@ -140,6 +147,10 @@ body {
         position: relative;
         justify-content: start;
         left: 1rem;
+    }
+
+    .card-features2 {
+        height: fit-content;
     }
 
     .save-message {
