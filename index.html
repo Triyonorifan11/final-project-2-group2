@@ -5,226 +5,413 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Projek 2 - Group 2</title>
+    <title>Start Up - Group 2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href='assets/fonts/nunito.css' rel='stylesheet'>
-    <link rel="stylesheet" href="assets/css/index.css">
-    <!-- memanggil css bootstrap -->
-    <!-- <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
-    <!-- memanggil file css -->
-
+    <link rel="stylesheet" href="assets/css/indexDev.css">
+    <link rel="stylesheet" href="assets/css/responsivePage.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+        <nav class="navbar navbar-expand-lg my-navbar">
+            <div class="container container-fluid py-3">
+                <button class="navbar-toggle-me" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon-me"></span>
+                    <span class="navbar-toggler-icon-me mt-1"></span>
                 </button>
-                <a class="navbar-brand" href="#">Offcanvas navbar</a>
+
+                <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <h5 class="offcanvas-title text-primary-me fw-bold" id="offcanvasNavbarLabel">Menu</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav justify-content-end flex-grow-1" style="margin-right: 13rem;">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active ms-4" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link ms-4" aria-current="page" href="#">Product</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link ms-4" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-4" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="me-3">
+                                <button class="btn btn-outline-primary-me rounded-pill px-4 py-2 fw-bold">Login</button>
+                            </li>
+                            <li>
+                                <button class="btn btn-primary-me rounded-pill px-4 py-2 fw-bold">Sign Up</button>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-        <section id="banner"></section>
+        <section id="banner" class="container pt-5">
+            <div class="card radius-60 bg-primary-me border border-0 height-80">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-5 p-5">
+                            <h1 class="text-primary-me fw-bold py-2 px-3">Business Communications Reinvented</h1>
+                            <p class="mt-3 text-primary-me p-3">Start communicating with your business <br>team more
+                                efficiently with our app.</p>
+                            <button class="btn btn-outline-primary-me rounded-pill px-5 py-3 fw-bold ms-3 fs-5">Get the
+                                app</button>
+                        </div>
+                        <div class="col-md-7 pt-3">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="card bg-white border border-0"
+                                        style="width: fit-content; border-radius: 1rem;">
+                                        <div class="card-body">
+                                            <img src="assets/images/doc.png" alt="" class="px-1">
+                                        </div>
+                                    </div>
+                                    <div class="card bg-white border border-0 my-4" style="border-radius: 1rem;">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center">
+                                                <img src="assets/images/cloud2.png" alt="" class="px-1">
+                                                <div class="text-primary-me ps-2">
+                                                    <span class="fw-bold d-block">Uploading Document</span>
+                                                    <small>7,09/108,98 GB</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 pb-4">
+                                    <div class="card bg-white border border-0"
+                                        style="width: fit-content; border-radius: 1rem;">
+                                        <div class="card-body ">
+                                            <div class="d-flex justify-content-center">
+                                                <img src="assets/images/cloud.png" alt="" class="">
+                                            </div>
+                                            <div class="text-primary-me pt-3 mt-1">
+                                                <small>1,73/2,09 GB</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 pb-4">
+                                    <div class="card bg-white border border-0"
+                                        style="height: auto; border-radius: 1rem;">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center">
+                                                <img src="assets/images/kalender.png" alt="" class="px-1">
+                                                <div class="text-primary-me ps-2">
+                                                    <span class="fw-bold d-block">Team Meeting</span>
+                                                    <small>2:30 PM 15 Apr 2020</small>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative d-flex px-1 pt-4">
+                                                <span class="circle text-primary-me fw-bold p-3">
+                                                    <small>JM</small>
+                                                </span>
+                                                <span class="circle text-primary-me fw-bold p-3" style="left: -10px;">
+                                                    <small>AC</small>
+                                                </span>
+                                                <span class="circle text-primary-me fw-bold p-3" style="left: -20px;">
+                                                    <small>KD</small>
+                                                </span>
+                                                <span class="circle text-primary-me fw-bold p-3" style="left: -30px;">
+                                                    <small>+8</small>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pb-4" style="height: fit-content;">
+                                    <div class="card bg-white border border-0" style="border-radius: 1rem;">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center">
+                                                <img src="assets/images/AB.svg" alt="" class="px-1">
+                                                <div class="text-primary-me ps-2">
+                                                    <span class="d-flex justify-content-between">
+                                                        <span class="fw-bold ">Ana Brooks</span>
+                                                        <small>2:09 PM</small>
+                                                    </span>
+                                                    <small>Hi, how are you doing today?</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-7" style="height: fit-content;">
+                                    <div class="card bg-white border border-0" style="border-radius: 1rem;">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center">
+                                                <img src="assets/images/JS.svg" alt="" class="px-1">
+                                                <div class="text-primary-me ps-2">
+                                                    <span class="d-flex justify-content-between">
+                                                        <span class="fw-bold ">John Smith</span>
+                                                        <small>11:02 AM</small>
+                                                    </span>
+                                                    <small>Hello, are you available for a pro…</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 pb-4" style="height: fit-content;">
+                                    <div class="card bg-white border border-0 save-message"
+                                        style="border-radius: 1rem;">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center">
+                                                <img src="assets/images/save.png" alt="" class="px-1">
+                                                <div class="text-primary-me ps-2">
+                                                    <span class="d-flex justify-content-between">
+                                                        <span class="fw-bold ">Message Saved</span>
+                                                    </span>
+                                                    <small>You have successfully saved this message</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card bg-white border border-0 message"
+                                        style="width: fit-content; border-radius: 1rem;">
+                                        <div class="card-body">
+                                            <img src="assets/images/message.png" alt="" class="px-1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
-
-    <!-- Fietures1 -->
     <main id="main-content">
-        <section id="product-features1">
+        <div class="container py-5 my-4">
             <div class="row">
-                <div class="col align-self-center">
-                    <div class="box">
-                        <div class="card">
-                            <div class="row">
-                                <div class="col-2"><img style="height: 50px; width: 50px;" src="assets/images/aj.png">
-                                </div>
-                                <div class="col-md-7" id="text">
-                                    <h5 style="font-size: 20px;">Andrew Jonshon </h5>
-                                    <p style="font-size: 14px;">I have seen that you are availabl…</p>
-                                </div>
-                                <div class="col-3">
-                                    <p style="font-size: 10px;">1:03 PM</p>
+                <div class="col-md-6 mb-5">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/Cloud.svg" alt="">
+                        <div class="ps-5 text-primary-me">
+                            <h5 class="fw-bold">Cloud Base</h5>
+                            <span>All your messages are always backed up.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/secret.svg" alt="">
+                        <div class="ps-5 text-primary-me">
+                            <h5 class="fw-bold">Secured</h5>
+                            <span>All your messages are stored very securely.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section B -->
+        <section id="product-features1" class="container pt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-features1 d-flex justify-content-center border border-0 "
+                        style="height: 575px;">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-8 pb-4" style="height: fit-content; width: fit-content;">
+                                <div class="card bg-white border border-0" style="border-radius: 1rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/aj.png" alt="" class="px-1">
+                                            <div class="text ps-2 text-primary-me">
+                                                <span class="d-flex justify-content-between">
+                                                    <span class="fw-bold">Andrew Johnson</span>
+                                                    <small>1:03 PM</small>
+                                                </span>
+                                                <small>I have seen that you are availabl…</small>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card" style="margin: 10px 70px 0 70px;">
-                            <div class="row">
-                                <div class="col-2"><img style="height: 40px; width: 40px;" src="assets/images/dl.png">
-                                </div>
-                                <div class="col-7" id="text">
-                                    <h5 style="font-size: 15px;">Daniel Luke</h5>
-                                    <p style="font-size: 12px;">What you like to have a meetin...</p>
-                                </div>
-                                <div class="col-3">
-                                    <p style="font-size: 8px;">5:27 AM</p>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-7 pb-4" style="height: fit-content; width: fit-content;">
+                                <div class="card bg-white border border-0" style="border-radius: 1rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/dl.png" alt="" class="px-1">
+                                            <div class="text ps-2  text-primary-me" style="font-size: 0.9rem;">
+                                                <span class="d-flex justify-content-between">
+                                                    <span class="fw-bold">Daniel Luke</span>
+                                                    <small>1:03 PM</small>
+                                                </span>
+                                                <small>Would you like to have a meetin…</small>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card" style="margin: 10px 80px 50px 80px;">
-                            <div class="row">
-                                <div class="col-2"><img style="height: 30px; width: 30px;" src="assets/images/aj.png">
-                                </div>
-                                <div class="col-6" id="text">
-                                    <h5 style="font-size: 12px;">Mark Clarke</h5>
-                                    <p style="font-size: 10px;">This was such a busy week. I can…</p>
-                                </div>
-                                <div class="col-4">
-                                    <p style="font-size: 8px;">1:12 PM</p>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-7 pb-4" style="height: fit-content; width: fit-content;">
+                                <div class="card bg-white border border-0" style="border-radius: 1rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/mc.png" alt="" class="px-1">
+                                            <div class="text ps-2  text-primary-me" style=" font-size: 0.8rem;">
+                                                <span class="d-flex justify-content-between">
+                                                    <span class="fw-bold">Mark Clarke</span>
+                                                    <small>2:08 AM</small>
+                                                </span>
+                                                <small>This was such a busy week. I
+                                                    can…</small>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col align-self-center" style="text-align: left; padding: 60px;">
-                    <h1>Use our app to send messages to your team</h1>
-                    <p>We offer really easy communications for all businesses from small to large.</p>
-                    <button class="button button-section2">Get the App</button>
+                <div class="col-md-6 p-5">
+                    <h1 class="text-primary-me fw-bold py-2 px-3 p-me">Use our app to send messages to your team</h1>
+                    <p class="mt-3 text-primary-me p-3">We offer really easy communications for all businesses from
+                        small to large.</p>
+                    <button class="btn btn-outline-primary-me rounded-pill px-5 py-3 fw-bold ms-3">Get the
+                        app</button>
                 </div>
             </div>
         </section>
 
-        <!--         ini Feature 2  -->
-        <section id="product-features2">
-            <div class="col align-self-center" style="text-align: center; padding: 60px;">
-                <h1>Transform your communications</h1><br>
-                <p>Our mobile app is the only thing you need to change <br> the way you communicate with your team</p>
+
+        <!-- Fietures2 -->
+        <section id="product-features2" class="container">
+            <div class="col align-self-center mt-5 pb-5" style="text-align: center; ">
+                <h1 class=" text-primary-me fw-bold">Transform your communications</h1><br>
+                <small class="text-primary-me mt-3">Our mobile app is the only thing you need to change <br>
+                    the way you communicate with your team
+                </small>
             </div>
 
-            <div class="container box2">
+            <div class="card-features2 border border-0">
                 <div class="row">
-                    <div class="col ">
-                        <div class="row">
-                            <div class="grid-container" style="margin-top: 250px;">
-                                <div class="card-body rounded-2" style="grid-area: last-line;">
-                                    <div class="row">
-                                        <div class="col-auto"><img src="assets/images/save.png">
-                                        </div>
-                                        <div class="col" id="text">
-                                            <h5 style="font-size: 16px;">Message Saved</h5>
-                                            <p style="font-size: 12px;">You have successfully saved this message</p>
+                    <div class="col-md-5 align-self-center">
+                        <div class="col d-me">
+                            <div class="card bg-white border border-0 my-4" style="border-radius: 1rem;">
+                                <div class="card-body ">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/save.png" alt="" class="px-1">
+                                        <div class="text-primary-me ps-2">
+                                            <span class="fw-bold d-block">Message Saved</span>
+                                            <small>You have successfully saved this message</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="grid-container">
-                                <div class="card-body rounded-2" style="grid-area: last-line; justify-self: end;">
-                                    <img src="assets/images/message.png" alt="">
+                        <div class="col d-me">
+                            <div class="card bg-white border border-0 mt-4"
+                                style="width: fit-content; border-radius: 1rem;">
+                                <div class="card-body">
+                                    <img src="assets/images/message.png" alt="" class="px-1">
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col">
+                    <div class="col-md-7 mt-4">
                         <div class="row">
-                            <div class="grid-container">
-                                <div class="card-body rounded-2" style="  justify-self: end;align-self: end;">
-                                    <img src="assets/images/doc.png" alt="">
+                            <div class="card bg-white border border-0 m-4 d-flex align-self-end"
+                                style="height: fit-content; width: fit-content; border-radius: 1rem;">
+                                <div class="card-body">
+                                    <img src="assets/images/doc.png" alt="" class="px-1">
                                 </div>
-                                <div class="card-body rounded-2 ">
-                                    <div class="row">
-                                        <div class="col-auto"><img src="assets/images/sb.png">
-                                        </div>
-                                        <div class="col" id="text">
-                                            <h5 style="font-size: 16px;">Spencer Brooks</h5>
-                                            <p style="font-size: 11px;">Have you seen the project requi…</p>
-                                        </div>
-                                        <div class="col-3">
-                                            <p style="font-size: 10px;">3:08 PM</p>
+                            </div>
+                            <div class="card bg-white border border-0 m-4"
+                                style="border-radius: 1rem; width: fit-content;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/sb.png" alt="" class="px-1">
+                                        <div class="text-primary-me ps-2">
+                                            <span class="d-flex justify-content-between">
+                                                <span class="fw-bold ">Spencer Brooks</span>
+                                                <small>3:08 PM</small>
+                                            </span>
+                                            <small>Have you seen the project requi…</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="grid-container">
-                                    <div class="card-body rounded-2">
-                                        <div class="row">
-                                            <div class="col-auto"><img src="assets/images/kalender.png">
-                                            </div>
-                                            <div class="col" id="text">
-                                                <h5 style="font-size: 16px;">Sales Meeting</h5>
-                                                <p style="font-size: 12px;">10:30 AM 05 May 2020</p>
-                                            </div>
-                                            <div class="row mt-2">
-                                                <img style="width: auto;" src="assets/images/4.png" alt="">
-                                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="card bg-white border border-0 m-4"
+                                style="border-radius: 1rem; width: fit-content;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/kalender.png" alt="" class="px-1">
+                                        <div class="text-primary-me ps-2">
+                                            <span class="fw-bold d-block">Team Meeting</span>
+                                            <small>2:30 PM 15 Apr 2020</small>
                                         </div>
                                     </div>
-
-                                    <div class="card-body rounded-2" style="justify-self: end;align-self: start;">
-                                        <div class="row">
-                                            <div class="col-auto"><img src="assets/images/cloud2.png">
-                                            </div>
-                                            <div class="col" id="text">
-                                                <h5 style="font-size: 16px;">Uploading Document</h5>
-                                                <p style="font-size: 12px;">27,09/ 78,93 GB</p>
-                                            </div>
+                                    <img src="assets/images/4.png" alt="" class="px-1 mt-2">
+                                </div>
+                            </div>
+                            <div class="card bg-white border border-0 my-4 ms-4"
+                                style="border-radius: 1rem; width: fit-content; height: fit-content;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/cloud2.png" alt="" class="px-1">
+                                        <div class="text-primary-me ps-2">
+                                            <span class="fw-bold d-block">Uploading Document</span>
+                                            <small>7,09/108,98 GB</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="grid-container">
-                                        <div class="card-body rounded-2">
-                                            <div class="row">
-                                                <div class="col-auto"><img src="assets/images/as.png">
-                                                </div>
-                                                <div class="col" id="text">
-                                                    <h5 style="font-size: 16px;">Amy Smith</h5>
-                                                    <p style="font-size: 11px;">Could please call me now? It
-                                                        is i…</p>
-                                                </div>
-                                                <div class="col-3">
-                                                    <p style="font-size: 10px;">5:18 PM</p>
-                                                </div>
-                                            </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="card bg-white border border-0 m-4"
+                                style="border-radius: 1rem; width: fit-content;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/as.png" alt="" class="px-1">
+                                        <div class="text-primary-me ps-2">
+                                            <span class="d-flex justify-content-between">
+                                                <span class="fw-bold ">Amy Smith</span>
+                                                <small>5:18 PM</small>
+                                            </span>
+                                            <small>Could please call me now? It is i…</small>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
 
-                                <div class="row">
-                                    <div class="grid-container">
-                                        <div class="col-auto">
-                                            <div class="card-body align-items-center rounded-2">
-                                                <img src="assets/images/cloud.png" alt="">
-                                                <div class="text mt-3" style="text-align: center;">
-                                                    <p style="font-size: 12px;">6,02/ 7,98 GB</p>
-                                                </div>
-                                            </div>
+                        <div class="row">
+                            <div class="col-md-5 pb-4">
+                                <div class="card bg-white border border-0 m-4"
+                                    style="width: fit-content; border-radius: 1rem;">
+                                    <div class="card-body ">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="assets/images/cloud.png" alt="" class="">
+                                        </div>
+                                        <div class="text-primary-me pt-3 mt-1">
+                                            <small>1,73/2,09 GB</small>
                                         </div>
                                     </div>
                                 </div>
@@ -234,91 +421,316 @@
                 </div>
             </div>
         </section>
+        <!-- akhir section B -->
 
 
+        <!-- section C -->
+        <!-- section Abour -->
+        <section class="container pt-5 mt-2" id="about">
+            <div class="row">
+                <div class="col-md-5 p-5 mt-5" style="text-align: left">
+                    <h1 class="text-primary-me fw-bold">Increase the efficiency within your company</h1>
+                    <p class="text-primary-me">our app is the great way for you to start getting more taks done</p>
+                    <button class="btn btn-outline-primary-me rounded-pill px-5 py-3 fw-bold ms-3">Get the app</button>
+                </div>
 
+                <div class="col-md-7">
+                    <div class="card radius-60 bg-primary-me border border-0">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card bg-white border border-0 my-4 mx-4"
+                                    style="height: auto; border-radius: 2rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/kalender.png" alt="" class="px-1">
+                                            <div class="text-primary-me ms-3">
+                                                <span class="fw-bold d-block">Daily Standup</span>
+                                                <small>2:30 PM 15 Apr 2020</small>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative d-flex px-1 pt-4">
+                                            <span class="circle text-primary-me fw-bold p-3">
+                                                <small>KU</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -10px;">
+                                                <small>MG</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -20px;">
+                                                <small>AI</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -30px;">
+                                                <small>+29</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-        <section id="about"></section>
-        
-        <section id="pricing"></section>
+                            <div class="col-md-6">
+                                <div class="card bg-white border border-0 my-4 mx-4"
+                                    style="height: auto; border-radius: 2rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/kalender.png" alt="" class="px-1">
+                                            <div class="text-primary-me ms-3">
+                                                <span class="fw-bold d-block">Daily Email</span>
+                                                <small>8:30 PM 28 Apr 2020</small>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative d-flex px-1 pt-4">
+                                            <span class="circle text-primary-me fw-bold p-3">
+                                                <small>MC</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -10px;">
+                                                <small>KY</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -20px;">
+                                                <small>AJ</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card bg-white border border-0 my-4 mx-4"
+                                    style="height: auto; border-radius: 2rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/kalender.png" alt="" class="px-1">
+                                            <div class="text-primary-me ms-3">
+                                                <span class="fw-bold d-block">Marketing Call</span>
+                                                <small>4:45 PM 30 May 2020</small>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative d-flex px-1 pt-4">
+                                            <span class="circle text-primary-me fw-bold p-3">
+                                                <small>CO</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -10px;">
+                                                <small>VN</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card bg-white border border-0 my-4 mx-4"
+                                    style="height: auto; border-radius: 2rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/kalender.png" alt="" class="px-1">
+                                            <div class="text-primary-me ms-3">
+                                                <span class="fw-bold d-block">Project Me</span>
+                                                <small>5:45 PM 1 June 2020</small>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative d-flex px-1 pt-4">
+                                            <span class="circle text-primary-me fw-bold p-3">
+                                                <small>TR</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -10px;">
+                                                <small>DE</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -20px;">
+                                                <small>PB</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -30px;">
+                                                <small>+2</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card bg-white border border-0 my-4 mx-4 overflow-hidden"
+                                    style="height: auto; border-radius: 2rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/kalender.png" alt="" class="px-1">
+                                            <div class="text-primary-me ms-3">
+                                                <span class="fw-bold d-block">Presentation</span>
+                                                <small>10:15 AM 2 Jul 2020</small>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative d-flex px-1 pt-4">
+                                            <span class="circle text-primary-me fw-bold p-3">
+                                                <small>GG</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card bg-white border border-0 my-4 mx-4 overflow-hidden"
+                                    style="height: auto; border-radius: 2rem;">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/images/kalender.png" alt="" class="px-1">
+                                            <div class="text-primary-me ms-3">
+                                                <span class="fw-bold d-block">Sales Call</span>
+                                                <small>12:30 PM 5 March 2020</small>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative d-flex px-1 pt-4">
+                                            <span class="circle text-primary-me fw-bold p-3">
+                                                <small>JJ</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -10px;">
+                                                <small>FC</small>
+                                            </span>
+                                            <span class="circle text-primary-me fw-bold p-3" style="left: -20px;">
+                                                <small>BD</small>
+                                            </span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container pt-5 mt-2 " id="pricing">
+            <div class="text-primary-me" style="text-align: center; padding: 60px;">
+                <h1>Explore our simple pricing</h1>
+                <p>We offer one the most competitive prices on the market for everyone</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-5 px-4">
+                    <div class="card radius-60 bg-primary-me border border-0 text-center">
+                        <div class="card-body text-primary-me">
+                            <h5 class="card-title">Basic</h5>
+                            <h1 class="card-text">$9</h1>
+                            <p>Per month</p>
+                            <button class="btn btn-light rounded-pill px-5 py-3 fw-bold text-primary-me">Learn
+                                more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5 px-4">
+                    <div class="card radius-60 border-3 text-center">
+                        <div class="card-body text-primary-me">
+                            <h5 class="card-title">Premium</h5>
+                            <h1 class="card-text">$29</h1>
+                            <p>Per month</p>
+                            <button
+                                class="btn btn-outline-primary-me rounded-pill px-5 py-3 fw-bold text-primary-me">Get
+                                started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5 px-4">
+                    <div class="card radius-60 bg-primary-me border border-0 text-center">
+                        <div class="card-body text-primary-me">
+                            <h5 class="card-title">Enterprise</h5>
+                            <h1 class="card-text">$129</h1>
+                            <p>Per month</p>
+                            <button class="btn btn-light rounded-pill px-5 py-3 fw-bold text-primary-me">Learn
+                                more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- akhir section C -->
     </main>
 
-    <footer>
+    <!-- section D -- Footer and Sign up -->
+    <footer class="py-5 mt-5">
         <div class="container">
             <!-- bagian box form signup -->
             <div class="box-signup">
                 <!-- judul -->
-                <div class="title-signup">
-                    <span class="fw-bold">
+                <div class="title-signup text-center">
+                    <h1 class="fw-bold fs-1">
                         Sign up to our newsletter
-                    </span>
+                    </h1>
                 </div>
                 <!-- sub judul -->
-                <div class="subtitle-signup">
+                <div class="subtitle-signup mb-2">
                     Receive latest news, updates, discounts and<br />
                     many other things every week.
                 </div>
+
                 <!-- form input email -->
-                <div class="input-signup row justify-content-md-center">
-                    <div class="input-form col-auto">
-                        <input type="email" name="email" placeholder="enter your email address">
+                <div class="input-signup row justify-content-center">
+                    <div class="d-flex input-form">
+                        <input type="email" name="email" placeholder="Enter your email address">
                         <button type="button" class="btn btn-primary">></button>
                     </div>
                 </div>
             </div>
             <!-- bagian footer -->
-            <div class="footer-links">
+            <div class="row color-blue">
                 <!-- konten untuk footer -->
                 <div class="container">
                     <!-- baris untuk footer -->
-                    <div class="row">
-                        <div class="col">
+                    <div class="row d-flex justify-content-evenly">
+                        <div class="col-auto">
                             <!-- judul -->
                             <div class="title-footer">
                                 Startup.io
                             </div>
                             <!-- konten -->
                             <div class="content-footer">
-                                &#169; 2020 - All rights reserved
+                                &#169; 2020 - All rights <br> reserved
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-auto">
                             <!-- judul -->
                             <div class="title-footer">
                                 Product
                             </div>
                             <!-- konten -->
                             <div class="content-footer">
-                                <ul>
-                                    <li><a href="#">Benefits</a></li>
-                                    <li><a href="#">Feedback</a></li>
-                                    <li><a href="#">Features</a></li>
+                                <ul class="p-0">
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me"
+                                            href="#">Benefits</a></li>
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me"
+                                            href="#">Feedback</a></li>
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me"
+                                            href="#">Features</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-auto">
                             <!-- judul -->
                             <div class="title-footer">
                                 About
                             </div>
                             <!-- konten -->
                             <div class="content-footer">
-                                <ul>
-                                    <li><a href="#">Company</a></li>
-                                    <li><a href="#">Team</a></li>
+                                <ul class="p-0">
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me"
+                                            href="#">Company</a></li>
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me"
+                                            href="#">Team</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-auto">
                             <!-- judul -->
                             <div class="title-footer">
                                 Support
                             </div>
                             <!-- konten -->
                             <div class="content-footer">
-                                <ul>
-                                    <li><a href="#">Get help</a></li>
-                                    <li><a href="#">Terms of service</a></li>
+                                <ul class="p-0">
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me" href="#">Get
+                                            help</a></li>
+                                    <li><a class="link-underline link-underline-opacity-0 text-primary-me"
+                                            href="#">Terms of service</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -328,7 +740,7 @@
         </div>
     </footer>
 
-    <script src="assets/js/index.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
         crossorigin="anonymous"></script>
