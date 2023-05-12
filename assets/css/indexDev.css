@@ -117,6 +117,31 @@ body {
 
 /* AKHIR SECTION A -- NAVBAR AND BANNER */
 
+/* SECTION B */
+
+.p-me {
+    padding-right: 10rem !important;
+}
+
+.d-me {
+    display: flex;
+    justify-content: end;
+}
+
+.card-features2 {
+    height: 100vh;
+    border-radius: 60px;
+    background: #F2F6FF;
+    color: #234CAD;
+}
+
+.card-features1 {
+    border-radius: 60px;
+    background: #F2F6FF;
+    color: #234CAD;
+
+}
+/* AKHIR SECTIOB B */
 
 /* ======================================================================================== */
 /* SECTION C -- ABOUT AND PRICING */

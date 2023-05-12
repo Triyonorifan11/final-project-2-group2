@@ -28,6 +28,10 @@
         justify-content: start;
         left: 1rem;
     }
+
+    .card-features2 {
+        height: fit-content;
+    }
     /* AKHIR SECTION A -- NAVBAR AND BANNER */
 }
 
