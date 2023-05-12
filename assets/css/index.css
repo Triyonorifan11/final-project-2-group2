@@ -1,15 +1,12 @@
 /* untuk style custom */
-
+/* ini Section D */
 /* styling untuk keseluruhan body pada page */
 body {
-    overflow-x: hidden;
     background-color: #FFFFFF;
-    font-family: 'Nunito' !important;
+    font-family: 'Nunito';
     font-style: normal;
 }
 
-<<<<<<< HEAD
-=======
 /* styling untuk box signup */
 .box-signup {
     border-radius: 60px;
@@ -17,7 +14,6 @@ body {
     color: #234CAD;
     padding: 75px;
 }
-
 /* styling untuk judul pada box signup */
 .title-signup {
     text-align: center;
@@ -26,8 +22,7 @@ body {
     line-height: 56px;
     margin-bottom: 25px;
 }
-
-/* styling untuk subjudul pada box signup */
+/* styling subjudul pada box signup */
 .subtitle-signup {
     text-align: center;
     font-weight: 400;
@@ -35,13 +30,11 @@ body {
     line-height: 26px;
     color: #234CAD;
 }
-
 /* styling pada box input email */
 .input-signup {
     margin-top: 35px;
     align-items: center;
 }
-
 /* styling pada form input */
 .input-form {
     border-radius: 17.5px;
@@ -50,9 +43,6 @@ body {
     width: 500px;
     height: 65px;
 }
-
-
-
 /* styling pada input email */
 .input-form input {
     padding-top: 6px;
@@ -65,7 +55,6 @@ body {
     border: none;
     width: 420px;
 }
-
 /* styling button input email */
 .input-form button {
     background-color: #234CAD;
@@ -75,13 +64,6 @@ body {
     color: white;
     border-radius: 12.5px;
 }
-
-/* styling footer */
-.footer-links {
-    padding: 0px 200px 0px 200px;
-    color: #234CAD;
-}
-
 /* styling judul pada footer */
 .title-footer {
     margin-top: 75px;
@@ -90,61 +72,47 @@ body {
     line-height: 49px;
     margin-bottom: 20px;
 }
-
 /* styling pada konten footer */
-.content-footer ul,
-li,
-a {
+.content-footer ul, li, a {
     list-style: none;
     padding: 0px;
-    text-decoration: none;
+    text-decoration: none !important;
+    color: #234CAD !important;
+}
+
+.color-blue {
     color: #234CAD;
 }
 
->>>>>>> 997dc4e40ce8a857eb5184d287203465632af797
 /* setting agar page responsif */
 @media only screen and (max-width: 900px) {
-
     /* mengatur margin top pada judul footer */
     .title-footer {
         margin-top: 20px;
         text-align: center;
     }
-
-    /* mengatur aligning pada konten footer agar berada di tengah pada saat lebar browser dikecilkan seukuran browser mobile */
-    .content-footer,
-    ul,
-    li,
-    a {
+    /* mengatur aligning pada konten footer agar berada di tengah pada saat lebar browser dikecilkan */
+    .content-footer, ul, li, a {
         text-align: center;
     }
-
     /* mengatur padding pada footer */
     .footer-links {
         padding: 120px;
         color: #234CAD;
     }
-
     /* mengatur lebar form input ketika tampilan mobile agar tidak over */
     .input-form input {
         width: 80%;
     }
 }
 
-<<<<<<< HEAD
-=======
 
 /* ini Section B Features 1 dan Features 2 */
 #main-content {
     width: 100%;
     min-height: 200px;
 }
->>>>>>> 997dc4e40ce8a857eb5184d287203465632af797
 
-
-
-<<<<<<< HEAD
-=======
 #product-features1 .row {
     display: flex;
     text-align: center;
@@ -238,7 +206,7 @@ a {
     text-align: center;
 }
 /* End Section B Features 1 dan Features 2 */
->>>>>>> 997dc4e40ce8a857eb5184d287203465632af797
+
 /* GHEINA */
 
 h1 {
@@ -303,7 +271,6 @@ p {
     font-weight: 400;
     font-size: 12px;
     line-height: 21px;
-<<<<<<< HEAD
     color : #234CAD;
  
 }
@@ -329,10 +296,4 @@ p {
     border-radius: 25px;
 
 }
-=======
-}
 
-
-
-
->>>>>>> 997dc4e40ce8a857eb5184d287203465632af797

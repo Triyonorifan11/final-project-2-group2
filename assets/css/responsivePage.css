@@ -1,0 +1,85 @@
+
+/* mobile */
+@media (max-width: 575.98px) {
+    /* SECTION A -- NAVBAR AND BANNER */
+    .height-80 {
+        height: fit-content;
+    }
+
+    .save-message {
+        width: fit-content;
+        position: relative;
+        top: 0px;
+        left: 0;
+        margin-top: 1.7rem;
+    }
+
+    .message {
+        position: relative;
+        top: 20px;
+    }
+
+    .p-me {
+        padding-right: 0 !important;
+    }
+
+    .d-me {
+        position: relative;
+        justify-content: start;
+        left: 1rem;
+    }
+    /* AKHIR SECTION A -- NAVBAR AND BANNER */
+}
+
+/* mobile 2 */
+@media (max-width: 767.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+
+    .p-me {
+        padding-right: 0 !important;
+    }
+
+    .d-me {
+        position: relative;
+        justify-content: start;
+        left: 1rem;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+
+    /* SECTION D -- FOOTER AND SIGN UP */
+    .p-me {
+        padding-right: 0 !important;
+    }
+    /* mengatur margin top pada judul footer */
+    .title-footer {
+        margin-top: 20px;
+        text-align: center;
+    }
+    /* mengatur aligning pada konten footer agar berada di tengah pada saat lebar browser dikecilkan */
+    .content-footer ul li a {
+        text-align: center;
+    }
+    /* mengatur padding pada footer */
+    .footer-links {
+        padding: 120px;
+        color: var(--primary-me);
+    }
+    /* mengatur lebar form input ketika tampilan mobile agar tidak over */
+    .input-form input {
+        width: 80%;
+    }
+
+    /* AKHIR SECTION D -- FOOTER AND SIGN UP */
+}
+
+
+
+

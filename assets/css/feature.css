@@ -1,39 +1,190 @@
-#main-content h1,
-h5,
-p {
-    color: #234CAD;
+body {
     font-family: 'Nunito';
-    font-style: normal;
+    overflow-x: hidden !important;
+}
+
+.card {
+    border-radius: 60px;
+    background: #F2F6FF;
+    color: #234CAD;
 
 }
 
-.container {
-    display: grid;
-    background-color: #F2F6FF;
 
+:root {
+    --bg-light-primary-me: #F2F6FF;
+    --text-primary-me: #234CAD;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-
+.nav-link {
+    color: #234CAD;
 }
 
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
+.nav-link:hover {
+    color: #234CAD;
+    font-weight: bold;
 }
 
-#product-features2 .card {
-    background-color: #FFFFFF;
-    border-radius: 25px;
+.nav-link.active {
+    font-weight: bold;
+    color: #234CAD !important;
 }
 
-#product-features2 .card-body {
-    background-color: #FFFFFF;
-    border-radius: 5px;
+.btn-outline-primary-me {
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.btn-outline-primary-me:hover {
+    color: #fff;
+    background-color: #234CAD;
+}
+
+.btn-primary-me {
+    background-color: var(--bg-light-primary-me);
+    border: 2px solid var(--bg-light-primary-me);
+    color: #234CAD;
+}
+
+.btn-primary-me:hover {
+    border: 2px solid #234CAD;
+    background-color: var(--bg-light-primary-me);
+    color: #234CAD;
+}
+
+.text-primary-me {
+    color: var(--text-primary-me);
+}
+
+.radius-60 {
+    border-radius: 2rem !important;
+}
+
+.navbar-toggle-me {
+    height: 3.1rem;
+    outline: none;
+    border: 0;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--bg-light-primary-me);
+}
+
+.navbar-toggler-icon-me {
+    display: block;
+    border-radius: 20px;
+    width: 1.4em;
+    height: .2em;
+    background-color: #234CAD;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.bg-primary-me {
+    background-color: var(--bg-light-primary-me);
+}
+
+.circle {
+    position: relative;
+    border: 3px solid #fff;
+    display: flex;
+    padding: 1.2rem !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: .74rem !important;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-light-primary-me);
     text-align: center;
+}
+
+.save-message {
+    width: max-content;
+    position: relative;
+    top: -60px;
+    left: 10px;
+}
+
+.message {
+    position: relative;
+    top: -30px;
+}
+
+.height-80 {
+    height: 80vh;
+}
+
+.p-me {
+    padding-right: 10rem !important;
+}
+
+.d-me {
+    display: flex;
+    justify-content: end;
+}
+
+.card-features2 {
+    height: 100vh;
+    border-radius: 60px;
+    background: #F2F6FF;
+    color: #234CAD;
+}
+
+/* mobile */
+@media (max-width: 575.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+
+    .p-me {
+        padding-right: 0 !important;
+    }
+
+    .d-me {
+        position: relative;
+        justify-content: start;
+        left: 1rem;
+    }
+
+    .card-features2 {
+        height: fit-content;
+    }
+
+    .save-message {
+        width: fit-content;
+        position: relative;
+        top: 0px;
+        left: 0;
+        margin-top: 1.7rem;
+    }
+
+    .message {
+        position: relative;
+        top: 20px;
+    }
+}
+
+/* mobile 2 */
+@media (max-width: 767.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+
+    .p-me {
+        padding-right: 0 !important;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .height-80 {
+        height: fit-content;
+    }
+
+    .p-me {
+        padding-right: 0 !important;
+    }
 }
