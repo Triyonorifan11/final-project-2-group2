@@ -2,7 +2,7 @@
 
 ### Kelompok 2
 - Triyono Rifan : Section 1
-- Fitria Nurul Hikmah : Section 2
+- Fitria Nurul Hikhmah : Section 2
 - Gheina Gemalia Thalita : Section 3
 - Azka Ashla Ursila : Section 4
 
