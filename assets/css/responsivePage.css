@@ -9,7 +9,7 @@
     .save-message {
         width: fit-content;
         position: relative;
-        top: 0px;
+        top: 0;
         left: 0;
         margin-top: 1.7rem;
     }
@@ -30,15 +30,56 @@
     }
 
     .card-features2 {
-        height: fit-content;
+        height: fit-content !important;
     }
     /* AKHIR SECTION A -- NAVBAR AND BANNER */
+
+    .w-offer-text{
+        width: 100%;
+    }
+
+    .w-andrew{
+        width: 90%;
+    }
+
+    .w-daniel{
+        width: 85%;
+    }
+
+    .w-mark{
+        width: 80%;
+    }
+
+    .card-about{
+        width: 85%;
+        margin: 0 2rem 2rem 2rem;
+    }
+    .ms-card-about{
+        left: 0;
+    }
 }
 
 /* mobile 2 */
 @media (max-width: 767.98px) {
     .height-80 {
         height: fit-content;
+    }
+
+    .save-message {
+        width: fit-content;
+        position: relative;
+        top: 0px;
+        left: 0;
+        margin-top: 1.7rem;
+    }
+
+    .message {
+        position: relative;
+        top: 20px;
+    }
+
+    .card-features2 {
+        height: fit-content !important;
     }
 
     .p-me {
@@ -50,6 +91,26 @@
         justify-content: start;
         left: 1rem;
     }
+    .w-offer-text{
+        width: 100%;
+    }
+    .w-andrew{
+        width: 90%;
+    }
+
+    .w-daniel{
+        width: 85%;
+    }
+    .w-mark{
+        width: 80%;
+    }
+    .card-about{
+        width: 85%;
+        margin: 0 2rem 2rem 2rem;
+    }
+    .ms-card-about{
+        left: 0;
+    }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -58,6 +119,29 @@
         height: fit-content;
     }
 
+    .w-offer-text{
+        width: 100%;
+    }
+    .w-andrew{
+        width: 90%;
+    }
+    .w-daniel{
+        width: 85%;
+    }
+    .w-mark{
+        width: 80%;
+    }
+
+    .card-features2 {
+        height: fit-content !important;
+    }
+    .card-about{
+        width: 85%;
+        margin: 0 2rem 2rem 2rem;
+    }
+    .ms-card-about{
+        left: 0;
+    }
     /* SECTION D -- FOOTER AND SIGN UP */
     .p-me {
         padding-right: 0 !important;
