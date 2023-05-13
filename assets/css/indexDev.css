@@ -120,7 +120,7 @@ body {
 /* SECTION B */
 
 .p-me {
-    padding-right: 10rem !important;
+    padding-right: 7rem !important;
 }
 
 .d-me {
@@ -129,7 +129,7 @@ body {
 }
 
 .card-features2 {
-    height: 100vh;
+    height: 85vh;
     border-radius: 60px;
     background: #F2F6FF;
     color: #234CAD;
@@ -149,6 +149,20 @@ body {
 .border-3 {
     border: 2px solid var(--primary-me);
     color: var(--primary-me);
+}
+
+.card-about{
+    width: 45%;
+    margin: 2rem 0 0 2rem;
+}
+
+.p-top-card-about{
+    padding-top: 3rem;
+}
+
+.ms-card-about{
+    position: relative;
+    left: 5rem;
 }
 /* SECTION D -- FOOTER AND SIGN UP */
 /* styling untuk box signup */
@@ -227,6 +241,21 @@ body {
     color: var(--primary-me);
 }
 
+.w-offer-text{
+    width: 80%;
+}
+
+.w-andrew{
+    width: 78%;
+}
+
+.w-daniel{
+    width: 68%;
+}
+
+.w-mark{
+    width: 59%;
+}
 
 /* AKHIR SECTION D -- FOOTER AND SIGN UP */
 
